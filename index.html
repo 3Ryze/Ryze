@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3ryze | Minecraft Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor glow effect -->
+    <div class="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">3ryze</span>
+                <span class="logo-dot"></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="profile-picture">
+                <img src="profile.jpg" alt="3ryze" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="profile-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Open for Commissions
+            </div>
+            <h1 class="hero-title">
+                Crafting <span class="gradient-text">Minecraft</span>
+                <br>Experiences
+            </h1>
+            <p class="hero-description">
+                Professional plugin, mod, and datapack developer. Experienced in Spigot, Paper, Bukkit, Kotlin, and Skript. I use AI tools to enhance my workflow and am very experienced with AI-assisted development. Turning your ideas into reality with clean, optimized code.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Start a Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#pricing" class="btn btn-secondary">
+                    <span>View Pricing</span>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">Development <span class="gradient-text">Services</span></h2>
+                <p class="section-description">From simple tweaks to complex systems, I bring your Minecraft vision to life.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Spigot/Paper Plugins</h3>
+                    <p>Custom plugins built with Spigot, Paper, Bukkit, <strong>Kotlin</strong>, and <strong>Skript</strong>. Optimized for performance and compatibility.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Commands</li>
+                        <li><i class="fas fa-check"></i> Economy Systems</li>
+                        <li><i class="fas fa-check"></i> Minigames</li>
+                        <li><i class="fas fa-check"></i> Custom Mobs & Bosses</li>
+                        <li><i class="fas fa-check"></i> Kotlin & Skript Support</li>
+                    </ul>
+                </div>
+                <div class="service-card featured">
+                    <div class="featured-badge">Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Minecraft Mods</h3>
+                    <p>Forge and Fabric mods that add new dimensions to your gameplay experience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Items & Blocks</li>
+                        <li><i class="fas fa-check"></i> New Dimensions</li>
+                        <li><i class="fas fa-check"></i> Custom Entities</li>
+                        <li><i class="fas fa-check"></i> World Generation</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Datapacks</h3>
+                    <p>Vanilla-friendly datapacks that enhance gameplay without requiring mods.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Recipes</li>
+                        <li><i class="fas fa-check"></i> Ability Systems</li>
+                        <li><i class="fas fa-check"></i> Custom Structures</li>
+                        <li><i class="fas fa-check"></i> Loot Tables</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="services-note">
+                <i class="fas fa-robot"></i>
+                <p>I use <strong>AI tools</strong> to enhance my development workflow and am very experienced with AI-assisted coding. I can create <strong>literally anything</strong> you want, from custom particles to custom bosses!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Investment</span>
+                <h2 class="section-title">Transparent <span class="gradient-text">Pricing</span></h2>
+                <p class="section-description">Fair prices for quality work. All estimates, final price depends on complexity.</p>
+            </div>
+            <div class="pricing-tabs">
+                <button class="pricing-tab active" data-tab="plugins">Plugins</button>
+                <button class="pricing-tab" data-tab="mods">Mods</button>
+                <button class="pricing-tab" data-tab="datapacks">Datapacks</button>
+            </div>
+            <div class="pricing-content">
+                <!-- Plugins Pricing -->
+                <div class="pricing-grid active" id="plugins">
+                    <div class="price-card">
+                        <div class="price-tier">Simple</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">5</span>
+                            <span class="range">to $20</span>
+                        </div>
+                        <p class="price-description">Basic functionality, simple commands, small features</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Single feature focus</li>
+                            <li><i class="fas fa-check"></i> Basic configuration</li>
+                            <li><i class="fas fa-check"></i> Quick delivery</li>
+                        </ul>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-tier">Medium</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">20</span>
+                            <span class="range">to $70</span>
+                        </div>
+                        <p class="price-description">Multiple features, database support, GUI menus</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Multiple features</li>
+                            <li><i class="fas fa-check"></i> Database integration</li>
+                            <li><i class="fas fa-check"></i> Custom GUIs</li>
+                        </ul>
+                    </div>
+                    <div class="price-card featured">
+                        <div class="popular-badge">Most Ordered</div>
+                        <div class="price-tier">Large</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">70</span>
+                            <span class="range">to $150</span>
+                        </div>
+                        <p class="price-description">Complex systems, multiple integrations, extensive features</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Complex systems</li>
+                            <li><i class="fas fa-check"></i> API integrations</li>
+                            <li><i class="fas fa-check"></i> Full documentation</li>
+                        </ul>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-tier">Advanced</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">150</span>
+                            <span class="range">+</span>
+                        </div>
+                        <p class="price-description">Enterprise-level, custom frameworks, massive scope</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Enterprise solutions</li>
+                            <li><i class="fas fa-check"></i> Custom frameworks</li>
+                            <li><i class="fas fa-check"></i> Priority support</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Mods Pricing -->
+                <div class="pricing-grid" id="mods">
+                    <div class="price-card">
+                        <div class="price-tier">Simple</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">10</span>
+                            <span class="range">to $25</span>
+                        </div>
+                        <p class="price-description">Basic items, simple blocks, minor tweaks</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Simple additions</li>
+                            <li><i class="fas fa-check"></i> Basic textures</li>
+                            <li><i class="fas fa-check"></i> Quick turnaround</li>
+                        </ul>
+                    </div>
+                    <div class="price-card featured">
+                        <div class="popular-badge">Popular</div>
+                        <div class="price-tier">Medium</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">35</span>
+                            <span class="range">to $50</span>
+                        </div>
+                        <p class="price-description">Custom entities, multiple items, moderate complexity</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Custom entities</li>
+                            <li><i class="fas fa-check"></i> Multiple features</li>
+                            <li><i class="fas fa-check"></i> Quality assets</li>
+                        </ul>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-tier">Advanced</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">125</span>
+                            <span class="range">+</span>
+                        </div>
+                        <p class="price-description">Full mod packs, dimensions, complex systems</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> New dimensions</li>
+                            <li><i class="fas fa-check"></i> Complex systems</li>
+                            <li><i class="fas fa-check"></i> Full mod scope</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Datapacks Pricing -->
+                <div class="pricing-grid" id="datapacks">
+                    <div class="price-card">
+                        <div class="price-tier">Basic</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">5</span>
+                            <span class="range">to $15</span>
+                        </div>
+                        <p class="price-description">Recipes, loot changes, small tweaks</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Custom recipes</li>
+                            <li><i class="fas fa-check"></i> Loot modifications</li>
+                            <li><i class="fas fa-check"></i> Simple functions</li>
+                        </ul>
+                    </div>
+                    <div class="price-card featured">
+                        <div class="popular-badge">Popular</div>
+                        <div class="price-tier">Medium</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">20</span>
+                            <span class="range">to $35</span>
+                        </div>
+                        <p class="price-description">Custom functions, abilities, new items</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Custom functions</li>
+                            <li><i class="fas fa-check"></i> Special abilities</li>
+                            <li><i class="fas fa-check"></i> Custom items</li>
+                        </ul>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-tier">Complex</div>
+                        <div class="price-amount">
+                            <span class="currency">$</span>
+                            <span class="amount">40</span>
+                            <span class="range">to $70</span>
+                        </div>
+                        <p class="price-description">Ability systems, progression, structures</p>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Ability systems</li>
+                            <li><i class="fas fa-check"></i> Progression mechanics</li>
+                            <li><i class="fas fa-check"></i> Custom structures</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-notes">
+                <div class="note warning">
+                    <i class="fas fa-heart"></i>
+                    <div>
+                        <strong>Important Notice</strong>
+                        <p>Due to sick family members I'm caring for, I may not always be able to meet exact deadlines. Please give me a deadline of <strong>2+ months</strong> when possible. I truly appreciate your patience and understanding.</p>
+                    </div>
+                </div>
+                <div class="note">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <strong>Delivery Time</strong>
+                        <p>Please allow at least 2 months for project completion</p>
+                    </div>
+                </div>
+                <div class="note no-rush">
+                    <i class="fas fa-ban"></i>
+                    <div>
+                        <strong>No Rush Orders</strong>
+                        <p>I do not accept rush orders. Thank you for understanding.</p>
+                    </div>
+                </div>
+                <div class="note">
+                    <i class="fas fa-calendar-alt"></i>
+                    <div>
+                        <strong>Extended Timeline</strong>
+                        <p>More time = possible discount</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Section -->
+    <section id="payment" class="payment">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Payment</span>
+                <h2 class="section-title">How to <span class="gradient-text">Pay</span></h2>
+                <p class="section-description">Flexible payment options for your convenience.</p>
+            </div>
+            <div class="payment-methods">
+                <div class="payment-card primary">
+                    <div class="payment-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h4>Revolut</h4>
+                    <p>Accepts <strong>any</strong> form of payment including cards, bank transfers, crypto, and more. The easiest option!</p>
+                    <span class="payment-badge">Recommended</span>
+                </div>
+                <div class="payment-card">
+                    <div class="payment-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h4>Gift Cards</h4>
+                    <p>I accept various gift cards as payment:</p>
+                    <div class="gift-cards">
+                        <span class="gift-card valorant">
+                            <i class="fas fa-gamepad"></i> Valorant
+                        </span>
+                        <span class="gift-card nitro">
+                            <i class="fab fa-discord"></i> Nitro
+                        </span>
+                        <span class="gift-card steam">
+                            <i class="fab fa-steam"></i> Steam
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's <span class="gradient-text">Work Together</span></h2>
+                    <p class="contact-description">Ready to bring your Minecraft ideas to life? Reach out and let's discuss your project!</p>
+                    <div class="contact-methods">
+                        <a href="https://discord.gg/hwJ8Gd6b6F" target="_blank" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-discord"></i>
+                            </div>
+                            <div class="method-info">
+                                <span class="method-label">Discord Server</span>
+                                <span class="method-value">Join for support & commissions</span>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-discord"></i>
+                            </div>
+                            <div class="method-info">
+                                <span class="method-label">Discord User</span>
+                                <span class="method-value">3ryze</span>
+                            </div>
+                            <button class="copy-btn" data-copy="3ryze">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="contact-availability">
+                        <div class="availability-indicator">
+                            <span class="pulse"></span>
+                            <span>Taking Commissions</span>
+                        </div>
+                        <p>Response time: Usually within 24-48 hours</p>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <div class="cta-card">
+                        <div class="cta-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Ready to Start?</h3>
+                        <p>Join my Discord server to discuss your project, get a quote, or just say hi!</p>
+                        <a href="https://discord.gg/hwJ8Gd6b6F" target="_blank" class="btn btn-primary btn-large">
+                            <i class="fab fa-discord"></i>
+                            <span>Join Discord Server</span>
+                        </a>
+                        <span class="cta-note">Free quotes • Fast responses • No obligation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-text">3ryze</span>
+                        <span class="logo-dot"></span>
+                    </a>
+                    <p>Professional Minecraft Developer specializing in plugins, mods, and datapacks.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#payment">Payment</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>More</h4>
+                        <ul>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="footer-socials">
+                            <a href="https://discord.gg/hwJ8Gd6b6F" target="_blank"><i class="fab fa-discord"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 3ryze. All rights reserved.</p>
+                <p class="footer-note">Prices are estimates. Deadlines should be 2+ months. No rush orders.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
